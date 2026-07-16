@@ -152,3 +152,8 @@ for (let i = 0; i < 100; i++) {
      const firstGreaterNumber = numbers.find(num => num > 10);
     console.log(firstGreaterNumber); // Output: 11
 </script>
+<script>
+    const numbers = [1, 2, 3, 4, 5];
+    const totalProduct = numbers.reduce((accumulator, currentValue) => accumulator * currentValue, 1);
+    console.log(totalProduct); // Output: 120
+</script>
