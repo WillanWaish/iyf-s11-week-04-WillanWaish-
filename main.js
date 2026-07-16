@@ -15,3 +15,9 @@
    console.log(typeof area);
    console.log(area);
 </script>
+<script>
+    let celsius = 45;
+    let fahrenheit = (celsius * 9/5) + 32;
+    console.log(typeof fahrenheit);
+    console.log(fahrenheit); 
+</script>
