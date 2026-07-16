@@ -34,3 +34,17 @@
     let initials= parts.map(word => word.[0].toUpperCase()).join("");
     console.log(initials);
 </script>
+<script>
+    let name ="willan mwangi";
+    let reversedName =name.split("").reverse().join("");
+    console.log(reversedName);
+</script>
+
+<script>
+    function calculateTip(billAmount, tipPercentage= 15) {
+    let tipAmount = billAmount * (tipPercentage / 100);
+    let totalAmount = billAmount + tipAmount;
+    console.log(`Tip Amount: $${tipAmount.toFixed(2)}`);
+    console.log(`Total Amount: $${totalAmount.toFixed(2)}`);
+ }
+</script>
