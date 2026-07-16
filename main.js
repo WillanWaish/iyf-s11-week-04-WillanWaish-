@@ -48,3 +48,16 @@
     console.log(`Total Amount: $${totalAmount.toFixed(2)}`);
  }
 </script>
+<script>
+for (let i = 0; i < 100; i++) {
+    console.log(i);
+ }
+</script>
+
+<script>
+    for (let i = 0; i < 100; i++) {
+        if (i % 2 === 0) {
+            console.log(i);
+        }
+    }
+</script>
