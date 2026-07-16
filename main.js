@@ -77,4 +77,11 @@ for (let i = 0; i < 100; i++) {
     }
     runFizzBuzz(100);
 </script>
-   
+<script>
+    function printTriangle(rows) {
+        for (let i = 1; i <=rows; i++)
+    console.log("*".repeat(i));
+
+    }
+    printTriangle(5);
+</script>   
