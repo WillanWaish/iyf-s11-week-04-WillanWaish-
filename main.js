@@ -136,3 +136,8 @@ for (let i = 0; i < 100; i++) {
     console.log(calculate(2, "**", 3)); // Output: 8
     console.log(calculate(10, "/", 0)); // Output: Error: Division by zero is not allowed.
 </script>
+<script>
+    const numbers = [1, 2, 3, 4, 5];
+     const doubled = numbers.map(num => num * 2);
+    console.log(doubled); // Output: [2, 4, 6, 8, 10]
+</script>
