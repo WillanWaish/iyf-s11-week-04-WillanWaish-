@@ -8,3 +8,10 @@
    console.log(typeof age);
    console.log(typeof isStudent);
 </script>
+<script>
+   let width = 100;
+   let height = 200;
+   let area = width * height;
+   console.log(typeof area);
+   console.log(area);
+</script>
