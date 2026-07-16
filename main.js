@@ -1,6 +1,6 @@
 <script>
-   let name = "isaac ndegwa";
-   let age = 21;
+   let name = "willan mwangi";
+   let age = 26;
    let isStudent = true;
    const date= new Date("16 july 2026");
 
