@@ -21,3 +21,16 @@
     console.log(typeof fahrenheit);
     console.log(fahrenheit); 
 </script>
+<script>
+    let number = 10;
+    const evenOrOdd = (number % 2 === 0) ? "even" : "odd";
+    console.log(typeof evenOrOdd);
+    console.log(evenOrOdd);
+</script>
+
+<script>
+    let name= "willan mwangi"
+    let parts= name.split(" ");
+    let initials= parts.map(word => word.[0].toUpperCase()).join("");
+    console.log(initials);
+</script>
